@@ -16,7 +16,7 @@ API_ID = config("29755489", default=None, cast=int)
 API_HASH = config("05e0d957751c827aa03494f503ab54fe", default=None)
 BOT_TOKEN = config("BOT_TOKEN", default=None)
 SESSION = config("BQHGCGEAUrqf_DQ7z1BBCmNwDxE0ZzgxwpOP5F3hcHvYCnujpiUIoUGLXB8Ma08EflyPFHmpO7s12nkSJO6etoUvw8IztUOKEUg-KtIWPPJS-mxfHb2ZjHtz-sEoWRy4ejYiTqBSt23EazLdPFh1jhIfW9ymSEofVzdaetGyA8GO5J8mf9J94kkNmCmsFMOQ6pCtXpyFYfU_gjlSMfrK9szsl_hrHeW2y-YSJv3rHh4cCqvQaqhMdcPQDgvLxYnMqoNR02p5AEdmFaWtOmqGgiZUjR5YxgL2eZPa_5iF-EeMwLi8VVvbqrB3NgZBJi-kLtcwmayosGeFq6HfJOFtS1nOWNfPxgAAAAGK3XtQAA", default=None)
-FORCESUB = config("FORCESUB", default=None)
+FORCESUB = config("https://t.me/savesameer", default=None)
 AUTH = config("6624738128", default=None, cast=int)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
